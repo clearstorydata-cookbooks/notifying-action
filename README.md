@@ -1,6 +1,6 @@
 # notifying-action
 
-[![Build Status](https://travis-ci.org/mbautin/chef-notifying-action.svg)](https://travis-ci.org/mbautin/chef-notifying-action)
+[![Build Status](https://travis-ci.org/clearstorydata-cookbooks/notifying-action.svg?branch=master)](https://travis-ci.org/clearstorydata-cookbooks/notifying-action)
 
 This Chef cookbook simplifies creating resource providers that enclose other resources and need to
 notify their subscribers based on the notifications received from all or a subset of these
