@@ -6,6 +6,7 @@ This Chef cookbook simplifies creading resource providers that enclose other res
 notify their subscribers based on the notifications received from all or a subset of these
 enclosed resources.
 
+Opscode Community page: http://community.opscode.com/cookbooks/notifying-action
 
 ## Example
 
