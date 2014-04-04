@@ -15,6 +15,7 @@ and creates a configuration file for it. Then, you want to restart the service i
 version was installed, or the configuration file changed.
 
 In your `providers/package_and_conf.rb` you would have:
+
 ```ruby
 action :install do
   notifying_action_wrapper do
@@ -30,6 +31,7 @@ end
 ```
 
 You will then be able to use this LWRP in recipes as follows:
+
 ```ruby
 
 my_cookbook_package_and_conf 'my_service' do
