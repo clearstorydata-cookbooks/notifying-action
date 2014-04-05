@@ -4,9 +4,15 @@
 
 This Chef cookbook simplifies creating resource providers that enclose other resources and need to
 notify their subscribers based on the notifications received from all or a subset of these
-enclosed resources.
+enclosed resources. This is based on the approach of wrapping all sub-resources used in a resource
+in a sub-run-context and examining the results of running that sub-run-context. The implementation
+is influenced by the following sources:
 
-Opscode Community page: http://community.opscode.com/cookbooks/notifying-action
+* http://realityforge.org/code/2012/07/17/lwrp-notify-on-changed-resources.html
+* The "nested resources" slide of this presentation:
+  http://www.slideshare.net/geekbri/lwrp-presentation/14
+
+Opscode Community page: http://community.opscode.com/cookbooks/notifying-action.
 
 ## Example
 
