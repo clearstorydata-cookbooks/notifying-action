@@ -39,7 +39,6 @@ end
 You will then be able to use this LWRP in recipes as follows:
 
 ```ruby
-
 my_cookbook_package_and_conf 'my_service' do
   action :install
   notifies :restart, 'service[my_service]', :immediately
@@ -50,10 +49,15 @@ service 'my_service' do
 end
 ```
 
-
 ## Contributing
 
-Pull requests are welcome.
+If you would like to contribute to this cookbook, please submit a pull request on GitHub.
+
+## Links
+
+* GitHub: https://github.com/clearstorydata-cookbooks/notifying-action
+* Chef Supermarket: https://supermarket.chef.io/cookbooks/notifying-action
+* Travis CI: https://travis-ci.org/clearstorydata-cookbooks/notifying-action
 
 ## License
 
