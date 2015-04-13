@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'berkshelf', '~> 2.0'
+gem 'berkshelf', '~> 3.2'
+gem 'stove'
 
 group :test do
-  gem 'rake', '~> 10.1.1'
-  gem 'chefspec', '~> 3.2.0'
-  gem 'rspec', '~> 2.14'
+  gem 'rake', '~> 10.4'
+  gem 'rspec', '~> 3.2'
+  gem 'chefspec', '~> 4.2'
 end
